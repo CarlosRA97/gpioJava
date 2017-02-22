@@ -23,7 +23,7 @@ public class LedController {
 
         pin.toggle();
 
-        return "OK" + " " + pin.getState().toString();
+        return "OK" + " " + pin.getState().getValue();
     }
 
 }
